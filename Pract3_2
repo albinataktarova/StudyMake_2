@@ -21,7 +21,7 @@
 		remoteAddr->sin_port = htons(7);
 		remoteAddr->sin_addr.s_addr = inet_addr("82.179.90.12");
 		char *buf = new char[256];
-		strcpy(buf,"Тактарова Альбина 19ПТ1\n");
+		strcpy(buf,"ТАКТАРОВА АЛЬБИНА 19ПТ1 \n");
 		int msgLen = strlen(buf);
 		int mySocket = socket(AF_INET, SOCK_DGRAM, 0);
 		if (mySocket == -1) {
